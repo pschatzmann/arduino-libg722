@@ -33,6 +33,7 @@
 #include <inttypes.h>
 #include <memory.h>
 #include <stdlib.h>
+#include <string.h>
 
 #include "g722_private.h"
 #include "g722_encoder.h"
