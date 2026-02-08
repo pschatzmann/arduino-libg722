@@ -1,1 +1,13 @@
-build/
+./build/
+*.out
+*.So
+.depend.*
+*.a
+*.o
+*.pico
+test
+Version.map
+*.so*
+__pycache__
+*.egg-info
+build/*
