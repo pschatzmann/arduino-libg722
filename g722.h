@@ -24,8 +24,11 @@
 
 /*! \file */
 
-#if !defined(_G722_H_)
-#define _G722_H_
+#pragma once
+
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 /*! \page g722_page G.722 encoding and decoding
 \section g722_page_sec_1 What does it do?
@@ -42,8 +45,11 @@ codec is considerably faster, and still fully compatible with wideband terminals
 
 enum
 {
+    G722_DEFAULT = 0x0000,
     G722_SAMPLE_RATE_8000 = 0x0001,
     G722_PACKED = 0x0002
 };
 
+#ifdef __cplusplus
+}
 #endif
